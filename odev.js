@@ -3,7 +3,7 @@
 let Sayi1 = prompt("1. sayiyi gir:");
 let Sayi2 = prompt("2. sayiyi gir:");
 let toplam = Number(Sayi1) + Number(Sayi2);
-console.log(`sayilarin toplami:`, "<b/><i/>", toplam);
+document.write("sayilarin toplami:", "<b/><i/>", toplam);
 
 // 2-Kullanıcıdan//  aldığı yaş bilgisini gün sayısına dönüştüren program (1 yıl 365 gün) document.writ
 const now = new Date();
